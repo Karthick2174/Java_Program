@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+import java.lang.*;
+class Myclass
+{
+  public static void main(string [] args)throws IOException
+  {
+    Scanner scan = new Scanner(System.in);
+    int std = 4262;     // the valve is use for PIN its shift operator valve.
+    int put_money = 0;
+    String name = "karthick";
+    System.out.println("Please press any button in two buttons." + "\n 1. Put a money on the hole." + "\n 2. Insert a card in a card place.");
+    int b = scan.nextInt();
+    if(b==1)
+    {
+         System.out.println("please put your amount : ");
+         put_money = scan.nextInt();
+         System.out.println("Your amount is :" + put_money);
+         }
+            else(b==2)  {
+                          System.out.println("Please insert a CARD : ");
+                           System.out.println("Please wait for checking for your card");
+                           System.out.println("Please entre a PIN");
+                           int PIN = scan.nextInt();
+                           PIN>>1;    //8525
+                          if(PIN==std) {
+                                        System.out.println("PIN is correct");
+                                         }
+                                            else {
+                                                   System.out.println("PIN is not correct")
+                                                      }
+     }                              
