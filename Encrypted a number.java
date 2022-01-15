@@ -10,7 +10,8 @@ class Myclass {
    System.out.println("How much rotate a number : ");
    int y = scan.nextInt();
    Sytem.out.println("How much rotate a number like Ex.two or three rotate" + "\n 1. Left shift 2 times" + "/n 2. Left shift 3 times" + "\n 3. Right shift 2 time." + "\n 4. Right shift 3 times.");
-   switch (x)
+   int a = scan.nextInt();
+   switch (a)
    case 1: { 
    System.out.println("Left shift a number of" + x + "How much rotate a valve" + y + " : ");
    int a = x<<y;
