@@ -7,11 +7,10 @@ class Myclass
 	public static void main(String [] args)throws IOException
 	{
 	Scanner sc = new Scanner(System.in);
-	int x,y;
 	System.out.println("Entre a valve of X :");
-	x = sc.nextInt();
+	int x = sc.nextInt();
 	System.out.pirntln("Entre a valve of Y :");
-	y = sc.nextInt();
+	int y = sc.nextInt();
 	for (int a=1;a<=x;a++)
 		{
 			a*y=o;
