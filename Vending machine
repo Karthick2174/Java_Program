@@ -20,12 +20,25 @@ class Myclass
          }
             else(b==2)  {
                           System.out.println("Please insert a CARD : ");
-                           System.out.println("Please wait for checking for your card");
-                           System.out.println("Please entre a PIN");
+                           System.out.println("Please wait for checking for your card................");
+                           System.out.println("Please entre a PIN.");
                            int PIN = scan.nextInt();
                            PIN>>1;    //8525
                           if(PIN==std) {
                                         System.out.println("PIN is correct");
+                                        int cdr = 82;
+                                        int psr = 83;
+                                        int tsr = 125;
+                                        int wr = 2;
+                                        System.out.println("*All Juice are contain 250ML only");
+                                        system.out.println("Entre you want a drink." + "\n 1. Cool drink." + "\n 2. Plain soda." + "\n 3. Today special." + "\n 4. Water" + "\n");
+                                        System.out.println("Select your drink");
+                                        int Select = scan.nextInt();
+                System.out.println("Please put a cash in cash box" + "\n We only a allow  amount of Rounded amount not accepted in paise" + "\n Ex: Only a 1, 5, 10, 100" + "\t Not in .50 paise");
+                                        int Rate = scan.nextInt();
+                                        switch (Select)
+                                        case 1: {
+                                                
                                          }
                                             else {
                                                    System.out.println("PIN is not correct")
