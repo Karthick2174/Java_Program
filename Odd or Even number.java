@@ -11,11 +11,11 @@ class Myclass
 		int x = sc.nextInt();
 		if (x%2==0)
 		{
-			System.out.println("It is a prime number.");
+			System.out.println("It is a Even number.");
 		}
 		else 
 			{
-				System.ou.println("Not a prime number.");
+				System.ou.println("It is a Odd number.");
 			}
 	}
 }	
