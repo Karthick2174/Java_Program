@@ -24,6 +24,7 @@ class Myclass
                            System.out.println("Please entre a PIN.");
                            int PIN = scan.nextInt();
                            PIN>>1;    //8525
+                           String Collect = "Take your drink";
                           if(PIN==std) {
                                         System.out.println("PIN is correct");
                                         int cdr = 82;
@@ -34,13 +35,31 @@ class Myclass
                                         system.out.println("Entre you want a drink." + "\n 1. Cool drink." + "\n 2. Plain soda." + "\n 3. Today special." + "\n 4. Water" + "\n");
                                         System.out.println("Select your drink");
                                         int Select = scan.nextInt();
-                System.out.println("Please put a cash in cash box" + "\n We only a allow  amount of Rounded amount not accepted in paise" + "\n Ex: Only a 1, 5, 10, 100" + "\t Not in .50 paise");
-                                        int Rate = scan.nextInt();
+                System.out.println("Please put a cash in cash box" + "\n We only a allow  amount of Rounded amount not accepted in paise" + "\n Ex: Only a 1, 5, 10, 100" + "\t Not in .50 paise");                               
+                                       int Rate = scan.nextInt();
                                         switch (Select)
-                                        case 1: {
-                                                
+                                        case (1 && (Rate == 82))  {
+                                        System.out.print(Collect);
+                                        break;
                                          }
+                                         case (2 && (Rate==83)) {
+                                         System.out.print(Collect);
+                                         break;
+                                         }
+                                         case (3 && (Rate== 125)) {
+                                         System.out.print(Collect);
+                                         break;
+                                         }
+                                         case (4 &&(Rate== 2))  {
+                                         System.out.print(Collect);
+                                         break;
+                                         }
+                                         default  {
+                                         System.out.print("Please put a correct amount................");
+                                         }
+                                }
                                             else {
                                                    System.out.println("PIN is not correct")
                                                       }
      }                              
+}
