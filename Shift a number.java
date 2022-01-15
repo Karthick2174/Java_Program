@@ -36,5 +36,8 @@ class Myclass {
    System.out.println("The valve of : " + a); 
    break;
    }
+      default {
+         System.out.print("Please entre a correct valve 1 to 4...........");
+         }
    }
 } 
