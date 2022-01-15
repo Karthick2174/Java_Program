@@ -32,10 +32,10 @@ class Myclass
                                         int tsr = 125;
                                         int wr = 2;
                                         System.out.println("*All Juice are contain 250ML only");
-                                        system.out.println("Entre you want a drink." + "\n 1. Cool drink." + "\n 2. Plain soda." + "\n 3. Today special." + "\n 4. Water" + "\n");
+                                        System.out.println("Entre you want a drink." + "\n 1. Cool drink." + "\n 2. Plain soda." + "\n 3. Today special." + "\n 4. Water" + "\n");
                                         System.out.println("Select your drink");
                                         int Select = scan.nextInt();
-                System.out.println("Please put a cash in cash box" + "\n We only a allow  amount of Rounded amount not accepted in paise" + "\n Ex: Only a 1, 5, 10, 100" + "\t Not in .50 paise");                               
+System.out.println("Please put a cash in cash box" + "\n We only a allow  amount of Rounded amount not accepted in paise" + "\n Ex: Only a 1, 5, 10, 100" + "\t Not in .50 paise");                               
                                        int Rate = scan.nextInt();
                                         switch (Select)
                                         case (1 && (Rate == 82))  {
