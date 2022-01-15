@@ -61,5 +61,6 @@ System.out.println("Please put a cash in cash box" + "\n We only a allow  amount
                                             else {
                                                    System.out.println("PIN is not correct")
                                                       }
+              System.out.println("Thank you!! and Welcome");
      }                              
 }
