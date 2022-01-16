@@ -2,9 +2,11 @@ import java.io.*;
 import java.util.*;
 class Myclass {
   public static void main(String []th)throws IOException {
-    HashMap<String, integer> empId = new HashMap<>();
+    HashMap empId = new HashMap<>();
    Scanner sc = new Scanner(System.in);
+    System.out.println("Entre a name : ");
     String N = sc.next();
+    System.out.println("Entre a empId : ");
     int NA = sc.nextInt();
     empId.put(N, NA);
     empId.put("Karthick" , 2174);
