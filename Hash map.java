@@ -13,7 +13,7 @@ class Myclass {
     empId.put("Hari",8266);
     empId.put("John",8265);
     System.out.println(empId);
-    System.out.println(empId.get("Shas"))
+    System.out.println(empId.get("Shas"));
     System.out.println(empId.containsKey("Subha"));
     System.out.println(empId.containsKey(0986);
     System.out.println(empId.containsKey("Shas"));
