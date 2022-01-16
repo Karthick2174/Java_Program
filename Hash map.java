@@ -3,12 +3,12 @@ import java.util.*;
 class Myclass {
   public static void main(String []th)throws IOException {
     HashMap<String, integer> empId = new HashMap<>();
-    Scanner sc = new Scanner(System.in);
-    String N = sc.nextLine();
+  /*  Scanner sc = new Scanner(System.in);
+    String 'N' = sc.nextLine();
     sc.nextLine();
-    String NA = sc.nextLine();
+    int NA = sc.nextInt();
     sc.close();
-    empId.put={N, NA};
+    empId.put={N, NA};      */
     empId.put={"Karthick" , 2174};
     empId.put={"Shas", 0123};
     empId.put={"Subhas",5628};
