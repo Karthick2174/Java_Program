@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 class Myclass {
   public static void main(String []th)throws IOException {
-    HashMap empId = new HashMap<>();
+    HashMap<String, Integer> empId = new HashMap<>();
    Scanner sc = new Scanner(System.in);
     System.out.println("Entre a name : ");
     String N = sc.next();
@@ -17,7 +17,7 @@ class Myclass {
     System.out.println(empId);
     System.out.println(empId.get("Shas"));
     System.out.println(empId.containsKey("Subha"));
-    System.out.println(empId.containsValue(0986));
+    System.out.println(empId.containsValue(86));
     System.out.println(empId.containsKey("Shas"));
     System.out.println(empId.containsValue(0123));
     System.out.println(empId);                   
