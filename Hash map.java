@@ -15,7 +15,7 @@ class Myclass {
     System.out.println(empId);
     System.out.println(empId.get("Shas"));
     System.out.println(empId.containsKey("Subha"));
-    System.out.println(empId.containsKey(0986);
+    System.out.println(empId.containsValue(0986);
     System.out.println(empId.containsKey("Shas"));
     System.out.println(empId.containsValue(0123));
     System.out.println(empId);                   
