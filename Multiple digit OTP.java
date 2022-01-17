@@ -3,6 +3,8 @@ import java.util.*;
 class Mycalss{
     public static void generateOTP()
     {
+        for (int i=0;i<=5;i++)          // five time run the OTP
+            {
         Scanner scan = new Scanner(System.in);
         System.out.println("Entre how much digit OTP :" + "\n 1. 4.digit OTP" + "\n 2. 5.digit OTP" + "\n 3. 6.digit OTP" + "\n 4. 7.digit OTP" + "\n 5.8.digit OTP");
         int x = scan.nextInt();
@@ -32,6 +34,7 @@ int otpNo = (int)(Math.random()*90000000)+10000000;
 System.out.println("Your 8 digit OTP : " + otpNo);
 }
     }
+        }
     public static void main(String []args)
    {
     generateOTP();    //calling method
