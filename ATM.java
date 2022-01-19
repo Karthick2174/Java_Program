@@ -118,6 +118,7 @@ System.out.println("Entre a option" + "\n 1. Money withdraw" + "\n 2. Fast withd
             System.out.println("Account number : " + account_number);
             System.out.println("Account balance : " + account_balance);
             System.out.println("\t");
+            System.out.println("===============================");
           }
         }
         else if (a!=b)
