@@ -15,10 +15,10 @@ class Myclass
       int account_balance = 864265;
       long mobile_number = 9784351260L;
       int withdraw_amount, cash_deposite, op;
-      System.out.println("Welcome to Bank ATM);
-     System.out.println("Please insert a card);
+      System.out.println("Welcome to Bank ATM");
+     System.out.println("Please insert a card");
      boolean insert_card = true;
-     System.out.println("Please a entre a PIN :);
+     System.out.println("Please a entre a PIN : ");
      int a = sc.nextInt();       // PIN 2585                   
      a= a<<1;
      int b= 5170;
@@ -44,9 +44,10 @@ System.out.println("Entre a option" + "\n 1. Money withdraw" + "\n 2. Fast withd
             System.out.println("account balance : " + account_balance);
             else if (account_balance < withdraw_amount)
             {
-              system.out.println("Insuffecnt balance");
+              System.out.println("Insuffecnt balance");
             }
           }
+        }
           if (op==2)
           {
             System.out.println("Fast withdraw");
@@ -75,21 +76,21 @@ System.out.println("Entre a option" + "\n 1. Money withdraw" + "\n 2. Fast withd
           {
             System.out.println("Change a PIN");
             System.out.println("Entre your current PIN");
-            a= scan.nextInt();
+            int a= sc.nextInt();
             int temp = a<<1;
             if (temp==b)
             {
               System.out.println("Entre a new PIN");
-              a= sc.nextInt();
+              int a1= sc.nextInt();
               System.out.println("Entea a PIN");
-              int a1 = sc.nextInt();
-              if (a==a1) 
+              int a2 = sc.nextInt();
+              if (a1==a2) 
               {
                 System.out.println("Your PIN is changed suessfully");
-                b=a<<1;
+                b=a1<<1;
               }
             }
-            System.out.println("Current PIN : " + a);
+            System.out.println("Current PIN : " + a1);
           }
           else if (op==4)
           {
@@ -108,7 +109,7 @@ System.out.println("Entre a option" + "\n 1. Money withdraw" + "\n 2. Fast withd
             System.out.println("Please put a cash");
             cash_deposite = sc.nextInt();
             account_balance += cash_deposite;
-            sc.close;
+            sc.close();
             System.out.println("======================");
             System.out.println("\t");
             System.out.println("\t Bank");
