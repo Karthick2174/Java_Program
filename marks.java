@@ -29,7 +29,7 @@ class Myclass {
           System.out.println("Entre a mark of subject : ");
           a[c] = scan.nextInt();
         }
-        sum = 0;
+       // sum = 0;
        for (int i=0;i<d;i++)
        {
          sum*+a[i];
