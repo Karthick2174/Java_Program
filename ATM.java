@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.lang.*;
 import java.math.*;
-class Myclass 
+public class test 
 {
   public static void main (String [] args)throws IOException
   {
@@ -14,7 +14,10 @@ class Myclass
       long card_number = 4125894336546375L;
       int account_balance = 864265;
       long mobile_number = 9784351260L;
-      int withdraw_amount, cash_deposite, op;
+      int withdraw_amount = 0;
+      int cash_deposite = 0;
+      int a1 = 0;
+      int op = 0;
       System.out.println("Welcome to Bank ATM");
      System.out.println("Please insert a card");
      boolean insert_card = true;
@@ -23,6 +26,7 @@ class Myclass
      a= a<<1;
      int b= 5170;
      int otp = generateOTP();
+     System.out.println(otp);
      System.out.println("Entre your OTP : "); 
      int otp1 = sc.nextInt();
     if (otp==otp1)
@@ -31,7 +35,7 @@ class Myclass
       {
         System.out.println("PIN is correct");
 System.out.println("Entre a option" + "\n 1. Money withdraw" + "\n 2. Fast withdraw" + "\n 3. Change a PIN" + "\n 4. Change a mobile number" + "\n 5. Check balance" + "\n 6. Cash deposite");
-        op = sc.nextInt();
+       op = sc.nextInt();
         if (op==1)
         {
           System.out.println("Money withdraw");
@@ -41,7 +45,7 @@ System.out.println("Entre a option" + "\n 1. Money withdraw" + "\n 2. Fast withd
           {
             account_balance -=withdraw_amount;
             System.out.println("Account holder name : " + name);
-            System.out.println("account balance : " + account_balance);
+            System.out.println("account balance : " + account_balance);}
             else if (account_balance < withdraw_amount)
             {
               System.out.println("Insuffecnt balance");
@@ -76,12 +80,12 @@ System.out.println("Entre a option" + "\n 1. Money withdraw" + "\n 2. Fast withd
           {
             System.out.println("Change a PIN");
             System.out.println("Entre your current PIN");
-            int a= sc.nextInt();
+            a= sc.nextInt();
             int temp = a<<1;
             if (temp==b)
             {
               System.out.println("Entre a new PIN");
-              int a1= sc.nextInt();
+              a1= sc.nextInt();
               System.out.println("Entea a PIN");
               int a2 = sc.nextInt();
               if (a1==a2) 
@@ -130,12 +134,10 @@ System.out.println("Entre a option" + "\n 1. Money withdraw" + "\n 2. Fast withd
       System.out.println("Continue the transtation.....................");
       boolean h= true;
     }
-                        }
+                        
                         public static int generateOTP()
                         {
                           int otpNo = (int) (Math.random()*9000)+1000;
                           return otpNo;
                         }
                         }
-                
-                
