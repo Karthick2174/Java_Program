@@ -3,10 +3,15 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-public class Moduls {
+
+public class test {
+
     public static void main(String[] args) {
-      for(int i=1;i<=15;i++) {
-          if (i==15)
+    	System.out.println("Entre a number : ");
+    	Scanner sc = new Scanner(System.in);
+    	int i = sc.nextInt();
+      while(i<=40) {
+          if (i%3==0 && i%5==0)
               System.out.println("FizzBuzz");
           else if (i%3 == 0)
     	   System.out.println("Fizz");
@@ -14,6 +19,7 @@ public class Moduls {
     	   System.out.println("Buzz");
        else
     	   System.out.println(i);
-    	  }
+          i++;
+    	  } 
     }
 }
