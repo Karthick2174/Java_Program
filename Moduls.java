@@ -10,7 +10,7 @@ public class test {
     	System.out.println("Entre a number : ");
     	Scanner sc = new Scanner(System.in);
     	int i = sc.nextInt();
-      while(i<=40) {
+      while(i<=15) {
           if (i%3==0 && i%5==0)
               System.out.println("FizzBuzz");
           else if (i%3 == 0)
