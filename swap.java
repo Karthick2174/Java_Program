@@ -1,15 +1,17 @@
 import java.io.*;
-import java.util.*;
-class work {
-	public static void main(String[] args){
-    Scanner sc = new Scanner();
-    System.out.print("Input value 1 : ");
-		int x = sc.nextInt();
-    System.out.print("Input value 2: ");
-		int y = sc.nextInt();
-		x = x * y; 
-		y = x / y; 
-		x = x / y;
+class GFG {
+	public static void main(String[] args)
+	{
+		int x = 10;
+		int y = 5;
+		// Code to swap 'x' and 'y'
+		x = x * y; // x now becomes 50
+		System.out.println(x);
+				System.out.println(y);
+		y = x / y; // y becomes 10
+				System.out.println(y);
+		x = x / y; // x becomes 5
+				System.out.println(x);
 		System.out.println("After swapping:"+ " x = " + x + ", y = " + y);
 	}
 }

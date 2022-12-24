@@ -1,0 +1,3 @@
+doubt
+
+if triangle 2 we remove else also same as triangel 4 why we calculate -- clear
